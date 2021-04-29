@@ -1,0 +1,137 @@
+.container {
+    min-height: 50vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .input{
+   width: 500px;
+   height: 50px;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+  
+ .list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 2px;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    width: 80vw;
+    /* border: 2px solid red; */
+ }
+
+ .addTL{
+   display: grid;
+   justify-content: center;
+   list-style: none;
+   margin: 2px;
+   padding: 20px;
+   flex-wrap: wrap;
+   font-size: 20px;
+   width: 100%;
+   /* border: 2px solid red; */
+ }
+ 
+ .textInput {
+    border: #000;
+    padding: 10px;
+    font-size: 20px;
+    width: 10%;
+    height: 5%;
+   
+  }
+  
+ .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+ }
+  
+ .listItem {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 35px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 4px solid rgb(0, 124, 240);
+    font-size: 1.4rem;
+ }
+  
+ .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+  
+ .button {
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 8px 8px 0px 8px;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+  
+ .btnEdit {
+    background-color: #4CAF50;
+    ;
+ }
+  
+ .btnDelete {
+    background-color: #f44336;
+ }
+  
+ .btnAdd {
+    background-color: rgb(33, 204, 90);
+ }
+  
+ .text {
+    font-size: 1.4rem;
+ }
+
+ .menuBar{
+   padding: 0 20px;
+   overflow: auto;
+   border-bottom: solid 1px;
+   box-shadow: 0 0 10px;
+}
+
+.logo{
+   width: 250px;
+   float: left;
+   color: blue;
+}
+
+.loginBar{
+   padding: 25px;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: center;
+
+}
+
+.addBtn{
+   padding: 25px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+}
